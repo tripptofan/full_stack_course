@@ -38,8 +38,9 @@ router.post('/', async (req, res) => {
             errorMessage: 'Error creating author'
         })
            // res.redirect(`authors/${newAuthor.id}`)
-        res.redirect('authors')
+      
     }
+    res.redirect('authors')
 })
 
 
